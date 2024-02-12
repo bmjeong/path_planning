@@ -1,6 +1,9 @@
 Famous Path Planning Algorithm code practice
 
-1) RRT
+<details>
+<summary>1) RRT</summary>
+
+```
  - pseudocode
    - Define Obstacle, Map, Goal, Initial Position
    - Node has 2 property( position, parent )
@@ -15,3 +18,7 @@ Famous Path Planning Algorithm code practice
        - If Goal Region
          - Finished = True
          - Path Generation 
+```
+</details>
+
+
