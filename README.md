@@ -24,6 +24,7 @@ Famous Path Planning Algorithm code practice
 <details>
 <summary>2) RRT* </summary>
 
+(*) means the difference between RRT and RRT*
 ```
  - pseudocode
    - Define Obstacle, Map, Goal, Initial Position
