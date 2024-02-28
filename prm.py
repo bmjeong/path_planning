@@ -198,6 +198,7 @@ if __name__ == '__main__':
     ### PRM 풀기
     vertices, shortest_path, G = PRM(sq, obstacles, N_node, start, goal)
     num_node_prm = len(vertices)
+    ### RRT* SMART 에 사용된 concept 사용하는 게 더 단축된 경로를 뽑기 좋다.
     shortest_path = path_shorten(shortest_path, vertices, obstacles)
     print("PRM PATH", shortest_path)
     print("Node", num_node_prm)
