@@ -3,6 +3,7 @@ Famous Path Planning Algorithm code practice
 <details>
 <summary>1) RRT</summary>
 * rrt.py
+RRT : Rapidly-exploring Random Tree
 ```
  - pseudocode
    - Define Obstacle, Map, Goal, Initial Position
@@ -23,7 +24,8 @@ Famous Path Planning Algorithm code practice
 
 <details>
 <summary>2) RRT* </summary>
-* rrt_star.py
+* rrt_star.py 
+ RRT* : using A start concept, path is shortened
 (\*) means the difference between RRT and RRT*
 ```
  - pseudocode
@@ -50,6 +52,7 @@ Famous Path Planning Algorithm code practice
 <details>
 <summary>3) RRT* SMART </summary>
 * rrt_star_smart.py
+ RRT* SMART : by deleting vertices, path is shortened
 (\*) means the difference between RRT* and RRT* SMART
 ```
  - pseudocode
@@ -77,6 +80,7 @@ Famous Path Planning Algorithm code practice
 <details>
 <summary>4) PRM </summary>
 * prm.py & Util.py
+ PRM (Probabilistic RoadMap)
 PRM is kind of a framework to find path to avoid collision with obstacles.
 1) Vertex Generation
 2) Edge Connection
@@ -100,5 +104,19 @@ In this code Vertex is generated at totally random position, Edge is connected b
      - Connect Edge for vertices with Delaunay triangulation
      - Find shortest path
      - If no path to goal, then add vertex, delete current edges.
+```
+</details>
+
+<details>
+<summary>5) GVD </summary>
+* gvd.py & Util.py
+GVD(Generalized Voronoi Diagram) is -- (
+```
+ - pseudocode
+   - Define Obstacle, Map, Goal, Initial Position
+   - Finished = False
+   - -
+   - While Not Finished:
+     - -
 ```
 </details>
