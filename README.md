@@ -4,8 +4,9 @@ Famous Path Planning Algorithm code practice
 <summary>1) RRT</summary>
 * rrt.py
 RRT : Rapidly-exploring Random Tree
- </details>
-```
+
+<pre>
+<code>
  - pseudocode
    - Define Obstacle, Map, Goal, Initial Position
    - Node has 2 property( position, parent )
@@ -20,7 +21,9 @@ RRT : Rapidly-exploring Random Tree
        - If Goal Region
          - Finished = True
          - Path Generation 
-```
+</code>
+</pre>
+ </details>
 
 
 <details>
