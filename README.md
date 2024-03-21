@@ -3,7 +3,8 @@ Famous Path Planning Algorithm code practice
 <details>
 <summary>1) RRT</summary>
 * rrt.py
-RRT : Rapidly-exploring Random Tree
+
+- RRT : Rapidly-exploring Random Tree
 
 <pre>
 <code>
@@ -23,7 +24,7 @@ RRT : Rapidly-exploring Random Tree
          - Path Generation 
 </code>
 </pre>
- </details>
+</details>
 
 
 <details>
